@@ -1,0 +1,368 @@
+/*
+Theme Name: Luiz Santos
+Theme URI: http://santosluiz.com
+Description: Luiz Santos
+Author: Luiz Santos
+Author URI: http://santosluiz.com/
+Version: 1.0
+*/
+
+html{
+	height: 100%;
+}
+
+body{
+	min-height: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;	
+	background-color: #f2f2f2;
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+section{
+	flex: 1;
+}
+a:hover{text-decoration: none;}
+
+body{
+	padding-top: 80px;
+}
+
+.reset_padding{
+	padding: 0px;
+}
+
+.reset_col{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.centered{
+	text-align: center;
+}
+
+.reset_p{
+	font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.intro_titulo{
+	font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+/* ------------------------------------------------
+					MENU
+	---------------------------------------------- */
+.navbar{
+	padding: 15px 0px 15px 0px;
+	background-color: #1abc9c;
+	border: 0px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-brand{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.navbar .navbar-brand{
+	color: white;
+}
+.navbar .navbar-nav>li>a{
+	color: white;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-toggle{
+	border-color: transparent;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+
+/* ------------------------------------------------
+					FOOTER
+	---------------------------------------------- */
+
+footer{
+	padding: 25px 0px 25px 0px;
+	background-color: #2f2f2f;
+}
+
+
+ul.footer_social{
+	text-align: center;
+	list-style: none;
+	padding: 0px;
+}
+
+ul.footer_social>li{
+	display: inline-block;
+	background: black;
+		border-radius: 100%;
+-webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+    -ms-border-radius: 100%;	
+     -o-border-radius: 100%;
+     margin: 5px;
+}
+
+ul.footer_social>li>a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;	
+	line-height: 50px;	
+}
+
+ul.footer_social>li:hover{
+	background-color: #1abc9c;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;	
+}
+
+.footer_text_div{
+	margin-top: 15px; 
+}
+
+.footer_text{
+	font-size: 10px;
+	font-weight: bold;
+	color: white;	
+}
+
+
+
+
+
+/* ------------------------------------------------
+				HOMEPAGE - INTRODUCTION
+	---------------------------------------------- */
+
+.intro{
+	background-color: #f2f2f2;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+
+
+/* ------------------------------------------------
+				PAGE - PROJECTS
+	---------------------------------------------- */
+
+.projetos{
+	background-color: white;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+
+.projetos_item{
+	padding: 0px 35px 20px 35px;
+}
+
+.projetos_link{
+	position: relative;
+	display: block;
+}
+
+.projetos_img{
+	width: 100%;
+}
+
+.projetos_centraliza{
+	margin: 0 auto;
+}
+
+.projetos_hover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	opacity: 0;	
+}
+
+.projetos_hover:hover{
+	background-color: rgba(1, 1, 1, 0.79);
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.projetos_descricao{
+	width: 100%; 
+	height: 50%; 
+	display: flex; 
+	align-items: flex-end; 
+	justify-content: center;
+}
+
+.projetos_texto{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 0px 20px 0px 20px;
+}
+
+.projetos_legenda{
+	text-align: center;
+    font-size: 25px;
+    padding-top: 10px;	
+}
+
+
+/* ------------------------------------------------
+				PAGE - CONTACT
+	---------------------------------------------- */
+
+.contato{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.input_formulario{
+	width: 100%;
+    height: 50px;
+
+    margin-bottom: 30px;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid black;
+	outline: none;	
+}
+
+.textarea_formulario{
+	width: 100%;
+    height: 215px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid black;
+	outline: none;	
+}
+
+#btn_envia{
+	width: 100px;
+	height: 35px;
+	text-transform: uppercase;
+	background-color: #1abc9c;
+	border: transparent;
+	float: right;
+}
+
+
+/* ------------------------------------------------
+				PAGE - BLOG
+	---------------------------------------------- */
+
+
+.posts{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.img_post_blog{
+	width: 100%;
+}
+
+.post_titulo{
+	font-size: 40px;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;	
+	font-weight: bold;
+	color: black;
+}
+
+.post_titulo:hover{
+	color: #383838;
+}
+
+.post_informacoes{
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+.post_informacoes>a{
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.post_descricao{
+	font-size: 17px;
+	margin-top: 50px;
+}
+
+
+/* ------------------------------------------------
+				SINGLE(CONTENT) - BLOG
+	---------------------------------------------- */
+
+.background_single_post{
+	width: 100%; 
+	height: 350px; 	
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
+.single_title_post{
+	font-size: 45px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.content_single_post{
+	padding: 40px 110px 40px 110px; 
+	margin:0 auto; 
+	font-size: 18px;
+}
+
+/* ------------------------------------------------
+				MEDIA QUERYS
+	---------------------------------------------- */
+
+
+@media (max-width: 768px){	
+
+	.projetos_item{
+		padding: 0px 15px 0px 15px;
+	}
+
+	.div_contact_textarea{
+		padding-left: 0px;
+	}
+
+	.post_titulo{
+		margin-top: 20px;
+	    margin-bottom: 10px;		
+	}
+
+	.post_descricao{
+		margin-top: 20px;
+	}
+
+	.content_single_post{
+		padding: 40px 20px 40px 20px; 	
+	}
+/*	.projetos_centraliza{
+		width: 100%;
+	}*/
+}	
