@@ -1,25 +1,15 @@
-/*
-Theme Name: Luiz Santos
-Theme URI: http://santosluiz.com
-Description: Luiz Santos
-Author: Luiz Santos
-Author URI: http://santosluiz.com/
-Version: 1.0
-*/
-
 html{
 	height: 100%;
 }
 
-body{
-	min-height: 100%;
+body{	
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;	
 	background-color: #f2f2f2;
 	padding: 0;
 	margin: 0;
-	font-family: 'Montserrat', sans-serif !important;
+	font-family: 'Montserrat', sans-serif;
 }
 
 section{
@@ -28,16 +18,22 @@ section{
 
 a{
 	color: #000;
+	cursor: pointer;
 }
 
-a:hover{text-decoration: none;}
+a:hover, a:active{text-decoration: none; color: #545454}
 
 body{
 	padding-top: 80px;
 }
 
+.reset_margin{
+	margin: 0px;
+}
+
 .reset_padding{
-	padding: 0px;
+	padding-right: 0px;
+    padding-left: 0px;
 }
 
 .reset_col{
@@ -62,14 +58,12 @@ body{
     margin-top: 30px;
 }
 
-
-
 /* ------------------------------------------------
 					MENU
 	---------------------------------------------- */
 .navbar{
 	padding: 15px 0px 15px 0px;
-	background-color: #1abc9c;
+	background-color: #2f2f2f;
 	border: 0px;
 	border-radius: 0px;
 	margin-bottom: 0px;
@@ -84,6 +78,7 @@ body{
 .navbar .navbar-brand{
 	color: white;
 }
+
 .navbar .navbar-nav>li>a{
 	color: white;
 	text-transform: uppercase;
@@ -107,7 +102,6 @@ footer{
 	background-color: #2f2f2f;
 }
 
-
 ul.footer_social{
 	text-align: center;
 	list-style: none;
@@ -124,6 +118,7 @@ ul.footer_social>li{
     -ms-border-radius: 100%;	
      -o-border-radius: 100%;
      margin: 5px;
+     border: 1px solid #2f2f2f;
 }
 
 ul.footer_social>li>a{
@@ -131,28 +126,27 @@ ul.footer_social>li>a{
 	width: 50px;
 	height: 50px;
 	font-size: 25px;	
-	line-height: 50px;	
+	line-height: 50px;
+	color: #fff;	
 }
 
 ul.footer_social>li:hover{
-	background-color: #1abc9c;
+	background-color: transparent;
+	border: 1px solid #fff;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;	
 }
 
-.footer_text_div{
+.download_website{
 	margin-top: 15px; 
 }
 
 .footer_text{
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: bold;
 	color: white;	
 }
-
-
-
 
 
 /* ------------------------------------------------
@@ -168,35 +162,30 @@ ul.footer_social>li:hover{
 }
 
 
-
 /* ------------------------------------------------
 				PAGE - PROJECTS
 	---------------------------------------------- */
 
-.projetos{
+.projects{
 	background-color: white;
 	padding-top: 60px;
 	padding-bottom: 10px;
 }
 
-.projetos_item{
+.projects_item{
 	padding: 0px 35px 20px 35px;
 }
 
-.projetos_link{
+.projects_link{
 	position: relative;
 	display: block;
 }
 
-.projetos_img{
+.projects_img{
 	width: 100%;
 }
 
-.projetos_centraliza{
-	margin: 0 auto;
-}
-
-.projetos_hover{
+.projects_hover{
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -204,13 +193,13 @@ ul.footer_social>li:hover{
 	opacity: 0;	
 }
 
-.projetos_hover:hover{
+.projects_hover:hover{
 	background-color: rgba(1, 1, 1, 0.79);
 	opacity: 1;
 	transition: 0.5s;
 }
 
-.projetos_descricao{
+.projects_description{
 	width: 100%; 
 	height: 50%; 
 	display: flex; 
@@ -218,14 +207,14 @@ ul.footer_social>li:hover{
 	justify-content: center;
 }
 
-.projetos_texto{
+.projects_text{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 18px;
 	padding: 0px 20px 0px 20px;
 }
 
-.projetos_legenda{
+.projects_title{
 	text-align: center;
     font-size: 25px;
     margin-top: 12px;
@@ -236,15 +225,14 @@ ul.footer_social>li:hover{
 				PAGE - CONTACT
 	---------------------------------------------- */
 
-.contato{
+.contact{
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
-.input_formulario{
+.input_form{
 	width: 100%;
     height: 50px;
-
     margin-bottom: 30px;
     background: transparent;
     border: transparent;
@@ -252,7 +240,7 @@ ul.footer_social>li:hover{
 	outline: none;	
 }
 
-.textarea_formulario{
+.textarea_form{
 	width: 100%;
     height: 215px;
     margin-top: 22px;
@@ -263,12 +251,14 @@ ul.footer_social>li:hover{
 	outline: none;	
 }
 
-#btn_envia{
+#btn_submit{
 	width: 100px;
 	height: 35px;
 	text-transform: uppercase;
-	background-color: #1abc9c;
+	background-color: #2f2f2f;
+	color: #fff;
 	border: transparent;
+	border-radius: 4px;
 	float: right;
 }
 
@@ -287,32 +277,21 @@ ul.footer_social>li:hover{
 	width: 100%;
 }
 
-.post_titulo{
+.post_title{
 	font-size: 40px;
 	padding: 0px;
-	margin: 0px 0px 10px 0px;	
+	margin: 0px;	
 	font-weight: bold;
 	color: black;
 }
 
-.post_titulo:hover{
+.post_title:hover{
 	color: #383838;
 }
 
-.post_informacoes{
-	font-size: 12px;
-	margin-left: 3px;
-}
-
-.post_informacoes>a{
-	color: black;
-	font-weight: bold;
-	font-size: 16px;
-}
-
-.post_descricao{
+.post_description{
 	font-size: 17px;
-	margin-top: 50px;
+	margin-top: 13px;
 }
 
 
@@ -347,7 +326,7 @@ ul.footer_social>li:hover{
 
 
 @media (max-width: 768px){	
-	.projetos_item{
+	.projects_item{
 		padding: 0px 15px 0px 15px;
 	}
 
@@ -355,12 +334,12 @@ ul.footer_social>li:hover{
 		padding-left: 0px;
 	}
 
-	.post_titulo{
+	.post_title{
 		margin-top: 20px;
 	    margin-bottom: 10px;		
 	}
 
-	.post_descricao{
+	.post_description{
 		margin-top: 20px;
 	}
 
