@@ -25,6 +25,11 @@ body{
 section{
 	flex: 1;
 }
+
+a{
+	color: #000;
+}
+
 a:hover{text-decoration: none;}
 
 body{
@@ -98,7 +103,7 @@ body{
 	---------------------------------------------- */
 
 footer{
-	padding: 25px 0px 25px 0px;
+	padding: 20px 0px 20px 0px;
 	background-color: #2f2f2f;
 }
 
@@ -107,6 +112,7 @@ ul.footer_social{
 	text-align: center;
 	list-style: none;
 	padding: 0px;
+	margin: 0px;
 }
 
 ul.footer_social>li{
@@ -222,7 +228,7 @@ ul.footer_social>li:hover{
 .projetos_legenda{
 	text-align: center;
     font-size: 25px;
-    padding-top: 10px;	
+    margin-top: 12px;
 }
 
 
