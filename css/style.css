@@ -59,10 +59,10 @@ body{
 }
 
 /* ------------------------------------------------
-					MENU
+			MENU
 	---------------------------------------------- */
 .navbar{
-	padding: 15px 0px 15px 0px;
+	padding: 15px 0px;
 	background-color: #2f2f2f;
 	border: 0px;
 	border-radius: 0px;
@@ -94,11 +94,11 @@ body{
 
 
 /* ------------------------------------------------
-					FOOTER
+			FOOTER
 	---------------------------------------------- */
 
 footer{
-	padding: 20px 0px 20px 0px;
+	padding: 20px 0px;
 	background-color: #2f2f2f;
 }
 
@@ -150,20 +150,17 @@ ul.footer_social>li:hover{
 
 
 /* ------------------------------------------------
-				HOMEPAGE - INTRODUCTION
+		HOMEPAGE - INTRODUCTION
 	---------------------------------------------- */
 
 .intro{
 	background-color: #f2f2f2;
-	padding-right: 0px;
-	padding-left: 0px;
-	padding-top: 50px;
-	padding-bottom: 70px;
+	padding: 50px 0px 70px 0px;
 }
 
 
 /* ------------------------------------------------
-				PAGE - PROJECTS
+		PAGE - PROJECTS
 	---------------------------------------------- */
 
 .projects{
@@ -211,43 +208,42 @@ ul.footer_social>li:hover{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 18px;
-	padding: 0px 20px 0px 20px;
+	padding: 0px 20px;
 }
 
 .projects_title{
 	text-align: center;
-    font-size: 25px;
-    margin-top: 12px;
+	font-size: 25px;
+    	margin-top: 12px;
 }
 
 
 /* ------------------------------------------------
-				PAGE - CONTACT
+			PAGE - CONTACT
 	---------------------------------------------- */
 
 .contact{
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding: 40px 0px;	
 }
 
 .input_form{
 	width: 100%;
-    height: 50px;
-    margin-bottom: 30px;
-    background: transparent;
-    border: transparent;
-    border-bottom: 1px solid black;
+    	height: 50px;
+    	margin-bottom: 30px;
+    	background: transparent;
+    	border: transparent;
+    	border-bottom: 1px solid black;
 	outline: none;	
 }
 
 .textarea_form{
 	width: 100%;
-    height: 215px;
-    margin-top: 22px;
-    margin-bottom: 30px;
-    background: transparent;
-    border: transparent;
-    border-bottom: 1px solid black;
+    	height: 215px;
+    	margin-top: 22px;
+    	margin-bottom: 30px;
+    	background: transparent;
+    	border: transparent;
+    	border-bottom: 1px solid black;
 	outline: none;	
 }
 
@@ -264,13 +260,12 @@ ul.footer_social>li:hover{
 
 
 /* ------------------------------------------------
-				PAGE - BLOG
+			PAGE - BLOG
 	---------------------------------------------- */
 
 
 .posts{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 50px 0px;
 }
 
 .img_post_blog{
@@ -296,7 +291,7 @@ ul.footer_social>li:hover{
 
 
 /* ------------------------------------------------
-				SINGLE(CONTENT) - BLOG
+		SINGLE(CONTENT) - BLOG
 	---------------------------------------------- */
 
 .background_single_post{
@@ -308,14 +303,16 @@ ul.footer_social>li:hover{
 }
 
 .single_title_post{
-	font-size: 45px;
+	font-size: 72px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	text-align: center;
+	color: #fff;
+
 }
 
 .content_single_post{
-	padding: 40px 110px 40px 110px; 
+	padding: 40px 110px;
 	margin:0 auto; 
 	font-size: 18px;
 }
@@ -336,7 +333,7 @@ ul.footer_social>li:hover{
 
 	.post_title{
 		margin-top: 20px;
-	    margin-bottom: 10px;		
+	    	margin-bottom: 10px;		
 	}
 
 	.post_description{
@@ -344,6 +341,6 @@ ul.footer_social>li:hover{
 	}
 
 	.content_single_post{
-		padding: 40px 20px 40px 20px; 	
+		40px 20px;
 	}
 }	
