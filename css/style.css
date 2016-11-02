@@ -188,10 +188,11 @@ ul.footer_social>li:hover{
 	height: 100%;
 	text-align: center;
 	opacity: 0;	
+	border-radius: 8px;
 }
 
 .projects_hover:hover{
-	background-color: rgba(1, 1, 1, 0.79);
+	background-color: rgba(1, 1, 1, 0.90);
 	opacity: 1;
 	transition: 0.5s;
 }
@@ -341,6 +342,6 @@ ul.footer_social>li:hover{
 	}
 
 	.content_single_post{
-		40px 20px;
+		padding: 40px 20px;
 	}
 }	
