@@ -84,6 +84,10 @@ body{
 	text-transform: uppercase;
 }
 
+.navbar .navbar-nav>li>a:hover, .navbar .navbar-brand:hover{
+	color: #c5c5c5;
+}
+
 .navbar .navbar-toggle{
 	border-color: transparent;
 }
