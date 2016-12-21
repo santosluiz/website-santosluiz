@@ -130,7 +130,7 @@ ul.footer_social>li>a{
 	width: 50px;
 	height: 50px;
 	font-size: 25px;	
-	line-height: 50px;
+	line-height: 58px;
 	color: #fff;	
 }
 
@@ -142,16 +142,24 @@ ul.footer_social>li:hover{
   transition: all 0.4s;	
 }
 
+.icon-social{
+	width: 25px;
+}
+
 .download_website{
 	margin-top: 15px; 
 }
 
-.footer_text{
+.download_description{
 	font-size: 12px;
 	font-weight: bold;
 	color: white;	
 }
 
+.download_description a{
+	text-decoration: underline;
+    color: #fff;
+}
 
 /* ------------------------------------------------
 		HOMEPAGE - INTRODUCTION
@@ -313,7 +321,6 @@ ul.footer_social>li:hover{
 	margin-bottom: 30px;
 	text-align: center;
 	color: #fff;
-
 }
 
 .content_single_post{
@@ -359,6 +366,10 @@ ul.footer_social>li:hover{
 	    	margin-bottom: 10px;		
 	}
 
+	.description{
+		margin: 0 auto;
+		text-align: center;
+	}
 	.post_description{
 		margin-top: 20px;
 	}
